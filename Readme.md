@@ -1,7 +1,5 @@
+*IMPORTANT* 
 
-An minimal template project with a Makefile that only compiles files in the same directory
+this project is protected under copyright law. any tampering is strictly illegal, and will get you in trouble. thank you!
 
-The Makefile will automatically detect and compile new source files as long 
-as they are placed in the same directory as the Makefile
-
-
+Slimey's adventure is a game on multiple older platforms like the Gameboy, NES, and commodore systems, as well as modern consoles like the WII, DS, and modersn windows and mac.
