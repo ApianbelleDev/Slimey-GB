@@ -17,6 +17,8 @@ void main(){
         checkInput();
         updateSwitches();
         wait_vbl_done(); //Wait until VBLANK to avoid graphic corruption
+        applyGravity();
+        checkCollision();
     }
 
    

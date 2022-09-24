@@ -4,7 +4,7 @@
 
 # If you move this project you can change the directory 
 # to match your GBDK root directory (ex: GBDK_HOME = "C:/GBDK/"
-GBDK_HOME = /home/bella/gbdk/
+GBDK_HOME = C:/gbdk/
 
 LCC = $(GBDK_HOME)bin/lcc 
 
@@ -27,6 +27,7 @@ compile.bat: Makefile
 # Compile and link all source files in a single call to LCC
 $(BINS):	$(CSOURCES) $(ASMSOURCES)
 	$(LCC) -o $@ $(CSOURCES) $(ASMSOURCES)
+
 
 clean:
 	rm -f *.o *.lst *.map *.gb *.ihx *.sym *.cdb *.adb *.asm
