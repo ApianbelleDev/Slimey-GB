@@ -37,5 +37,4 @@ void updateSwitches(){
 
 void checkInput(){
     movePlayer();
-    wrapScreen();
 }

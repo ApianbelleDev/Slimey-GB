@@ -26,7 +26,7 @@
 #define __player_static_h_INCLUDE
 
 /* Bank of tiles. */
-#define TileLabelBank 0
+#define SlimeyBank 0
 /* Start of tile array. */
 extern const unsigned char Slimey[];
 
